@@ -6,7 +6,7 @@ KB = 1024
 MB = KB * 1024
 GB = MB * 1024
 
-def write_in_file(file: TextIOWrapper, value: int, multiplier=int):
+def write_in_file(file: TextIOWrapper, value: int, multiplier: int):
     file.write("." * (value * multiplier))
 
 if __name__ == "__main__":
